@@ -203,6 +203,9 @@ class Quiz:
 # Create a GUI Window
 gui = Tk()
 
+#set window icon
+gui.iconbitmap("quiz.ico")
+
 # set the size of the GUI Window
 gui.geometry("1000x450")
 
